@@ -1,0 +1,37 @@
+@import './tree.css';
+
+.cabecalho{
+    background-image: url(../img/bg_cabecalho.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover ;
+}
+.migalhas{
+    height: 40px;
+}
+.azulSesap{
+    background-color: #0080c7;
+}
+.sombra{
+    box-shadow:inset 3px 0px 20px 5px rgba(0, 0, 0, 0.3);
+}
+.w100{
+    width: 100%;
+}
+.conteudo{
+    min-height: 70vh;
+}
+
+@media (max-width: 769px) { 
+    .cabecalho{
+        background-image: none;
+    }
+    .scroll{
+        overflow-x: scroll;
+        white-space: unset;
+      
+    }
+    .tree{
+        
+    }
+ }
