@@ -1,5 +1,9 @@
 @import './tree.css';
 
+html{
+    scroll-behavior: smooth;
+    
+}
 .cabecalho{
     background-image: url(../img/bg_cabecalho.png);
     background-repeat: no-repeat;
@@ -21,17 +25,21 @@
 .conteudo{
     min-height: 70vh;
 }
+.tree{
+    margin: 0 auto;
+}
+.treeContainer{
+    overflow-x: auto;
+    height: 40vh;
+}
 
 @media (max-width: 769px) { 
     .cabecalho{
         background-image: none;
     }
-    .scroll{
-        overflow-x: scroll;
-        white-space: unset;
-      
-    }
     .tree{
-        
+    
+        min-width: 760px;
+        margin: 0 auto;
     }
  }
